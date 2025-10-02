@@ -123,7 +123,7 @@ console.log("numero", reverseString(9))
 /* SCRIVI QUI LA TUA RISPOSTA */
 const upperFirst = function (string) {
      if (typeof string !== "string") {return ("errore, inserisci una stringa")}
-    const upperFirst = function (string) {
+   {
   const first = string.charAt(0).toUpperCase()
   const inside = string.slice(1) 
   let finalString
